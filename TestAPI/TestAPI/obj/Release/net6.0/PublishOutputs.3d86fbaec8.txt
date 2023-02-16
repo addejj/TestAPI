@@ -1,0 +1,11 @@
+C:\Users\kf4815\source\repos\TestAPI\TestAPI\obj\Release\net6.0\PubTmp\Out\TestAPI.exe
+C:\Users\kf4815\source\repos\TestAPI\TestAPI\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\kf4815\source\repos\TestAPI\TestAPI\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\kf4815\source\repos\TestAPI\TestAPI\obj\Release\net6.0\PubTmp\Out\TestAPI.dll
+C:\Users\kf4815\source\repos\TestAPI\TestAPI\obj\Release\net6.0\PubTmp\Out\TestAPI.deps.json
+C:\Users\kf4815\source\repos\TestAPI\TestAPI\obj\Release\net6.0\PubTmp\Out\TestAPI.runtimeconfig.json
+C:\Users\kf4815\source\repos\TestAPI\TestAPI\obj\Release\net6.0\PubTmp\Out\TestAPI.pdb
+C:\Users\kf4815\source\repos\TestAPI\TestAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\kf4815\source\repos\TestAPI\TestAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kf4815\source\repos\TestAPI\TestAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kf4815\source\repos\TestAPI\TestAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
