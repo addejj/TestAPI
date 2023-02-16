@@ -1,23 +1,26 @@
 using Microsoft.Azure.Cosmos;
-
-using CosmosClient client = new(
-    accountEndpoint: Environment.GetEnvironmentVariable("https://testapicosmosdb.documents.azure.com:443/")!,
-    authKeyOrResourceToken: Environment.GetEnvironmentVariable("vJ5ozcVGENm5aGAabiaqU2XvnOkb49RQdR8znZBDvHCuEFnW5ypeYh7bcHi2Sn7VoL4zGq25jqHgACDb7kfpOg==")!
-);
-
-Database database = client.GetDatabase(id: "cosmicworks");
-
-Console.WriteLine($"New database:\t{database.Id}");
-
-Container container = await database.CreateContainerIfNotExistsAsync(
-    id: "products",
-    partitionKeyPath: "/categoryId",
-    throughput: 400
-);
-
-Console.WriteLine($"New container:\t{container.Id}");
+using TestAPI;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSingleton<ICarCosmosService>(options =>
+{
+    string url = builder.Configuration.GetSection("AzureCosmosDbSettings")
+    .GetValue<string>("URL");
+    string primaryKey = builder.Configuration.GetSection("AzureCosmosDbSettings")
+    .GetValue<string>("PrimaryKey");
+    string dbName = builder.Configuration.GetSection("AzureCosmosDbSettings")
+    .GetValue<string>("DatabaseName");
+    string containerName = builder.Configuration.GetSection("AzureCosmosDbSettings")
+    .GetValue<string>("ContainerName");
+
+    var cosmosClient = new CosmosClient(
+        url,
+        primaryKey
+    );
+
+    return new CarCosmosService(cosmosClient, dbName, containerName);
+});
 
 // Add services to the container.
 
