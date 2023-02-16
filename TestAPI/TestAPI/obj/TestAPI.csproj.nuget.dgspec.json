@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kf4815\\source\\repos\\TestAPI\\TestAPI\\TestAPI.csproj": {}
+    "C:\\Users\\kf4815\\source\\repos\\TestAPI\\TestAPI\\TestAPI\\TestAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kf4815\\source\\repos\\TestAPI\\TestAPI\\TestAPI.csproj": {
+    "C:\\Users\\kf4815\\source\\repos\\TestAPI\\TestAPI\\TestAPI\\TestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kf4815\\source\\repos\\TestAPI\\TestAPI\\TestAPI.csproj",
+        "projectUniqueName": "C:\\Users\\kf4815\\source\\repos\\TestAPI\\TestAPI\\TestAPI\\TestAPI.csproj",
         "projectName": "TestAPI",
-        "projectPath": "C:\\Users\\kf4815\\source\\repos\\TestAPI\\TestAPI\\TestAPI.csproj",
+        "projectPath": "C:\\Users\\kf4815\\source\\repos\\TestAPI\\TestAPI\\TestAPI\\TestAPI.csproj",
         "packagesPath": "C:\\Users\\kf4815\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kf4815\\source\\repos\\TestAPI\\TestAPI\\obj\\",
+        "outputPath": "C:\\Users\\kf4815\\source\\repos\\TestAPI\\TestAPI\\TestAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Azure.ResourceManager.CosmosDB": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.32.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
