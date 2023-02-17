@@ -11,8 +11,6 @@ C:\Users\kf4815\source\repos\TestAPI\TestAPI\TestAPI\bin\Debug\net6.0\TestAPI.ru
 C:\Users\kf4815\source\repos\TestAPI\TestAPI\TestAPI\bin\Debug\net6.0\TestAPI.dll
 C:\Users\kf4815\source\repos\TestAPI\TestAPI\TestAPI\bin\Debug\net6.0\TestAPI.pdb
 C:\Users\kf4815\source\repos\TestAPI\TestAPI\TestAPI\bin\Debug\net6.0\Azure.Core.dll
-C:\Users\kf4815\source\repos\TestAPI\TestAPI\TestAPI\bin\Debug\net6.0\Azure.ResourceManager.dll
-C:\Users\kf4815\source\repos\TestAPI\TestAPI\TestAPI\bin\Debug\net6.0\Azure.ResourceManager.CosmosDB.dll
 C:\Users\kf4815\source\repos\TestAPI\TestAPI\TestAPI\bin\Debug\net6.0\Microsoft.Azure.Cosmos.Client.dll
 C:\Users\kf4815\source\repos\TestAPI\TestAPI\TestAPI\bin\Debug\net6.0\Microsoft.Azure.Cosmos.Core.dll
 C:\Users\kf4815\source\repos\TestAPI\TestAPI\TestAPI\bin\Debug\net6.0\Microsoft.Azure.Cosmos.Direct.dll

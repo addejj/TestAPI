@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "TestAPI/1.0.0": {
         "dependencies": {
-          "Azure.ResourceManager.CosmosDB": "1.2.1",
           "Microsoft.Azure.Cosmos": "3.32.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -16,52 +15,29 @@
           "TestAPI.dll": {}
         }
       },
-      "Azure.Core/1.28.0": {
+      "Azure.Core/1.19.0": {
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "System.Buffers": "4.5.1",
           "System.Diagnostics.DiagnosticSource": "4.6.0",
+          "System.Memory": "4.5.4",
           "System.Memory.Data": "1.0.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Text.Encodings.Web": "4.7.2",
-          "System.Text.Json": "4.7.2",
+          "System.Text.Json": "4.6.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "runtime": {
-          "lib/net6.0/Azure.Core.dll": {
-            "assemblyVersion": "1.28.0.0",
-            "fileVersion": "1.2800.23.10602"
-          }
-        }
-      },
-      "Azure.ResourceManager/1.4.0": {
-        "dependencies": {
-          "Azure.Core": "1.28.0",
-          "System.Text.Json": "4.7.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Azure.ResourceManager.dll": {
-            "assemblyVersion": "1.4.0.0",
-            "fileVersion": "1.400.23.10904"
-          }
-        }
-      },
-      "Azure.ResourceManager.CosmosDB/1.2.1": {
-        "dependencies": {
-          "Azure.Core": "1.28.0",
-          "Azure.ResourceManager": "1.4.0",
-          "System.Text.Json": "4.7.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Azure.ResourceManager.CosmosDB.dll": {
-            "assemblyVersion": "1.2.1.0",
-            "fileVersion": "1.200.123.11301"
+          "lib/net5.0/Azure.Core.dll": {
+            "assemblyVersion": "1.19.0.0",
+            "fileVersion": "1.1900.21.45105"
           }
         }
       },
       "Microsoft.Azure.Cosmos/3.32.0": {
         "dependencies": {
-          "Azure.Core": "1.28.0",
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Azure.Core": "1.19.0",
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
           "Microsoft.Bcl.HashCode": "1.1.0",
           "Newtonsoft.Json": "10.0.2",
           "System.Buffers": "4.5.1",
@@ -119,11 +95,11 @@
           }
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "4.700.20.21406"
+            "fileVersion": "4.700.19.46214"
           }
         }
       },
@@ -622,7 +598,7 @@
       "System.Memory.Data/1.0.2": {
         "dependencies": {
           "System.Text.Encodings.Web": "4.7.2",
-          "System.Text.Json": "4.7.2"
+          "System.Text.Json": "4.6.0"
         },
         "runtime": {
           "lib/netstandard2.0/System.Memory.Data.dll": {
@@ -985,7 +961,7 @@
         }
       },
       "System.Text.Encodings.Web/4.7.2": {},
-      "System.Text.Json/4.7.2": {},
+      "System.Text.Json/4.6.0": {},
       "System.Text.RegularExpressions/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1089,26 +1065,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Azure.Core/1.28.0": {
+    "Azure.Core/1.19.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IY6rGo8r8MfcmIxaNGFhIn/5PTz2Eld6Uqmy3bL/NX+2+g7hroo69jcJ9jeRPkuKXZPPreXTr8zt49No11Wbug==",
-      "path": "azure.core/1.28.0",
-      "hashPath": "azure.core.1.28.0.nupkg.sha512"
-    },
-    "Azure.ResourceManager/1.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BaQijHf104MNqXMhZX5RseEwXNyBl4CKwDSqP9/tOyIy9/Ph5M9mL2MKo368VuOfD3PMQXG1GtI9jW1okuI2tg==",
-      "path": "azure.resourcemanager/1.4.0",
-      "hashPath": "azure.resourcemanager.1.4.0.nupkg.sha512"
-    },
-    "Azure.ResourceManager.CosmosDB/1.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KKTTgrHESFUKazGMaAnSVWb+Nlrgxbe4BImAanLBEHsyAyjK0g1Pp/FldjFSkZjDYO8PnodcNIGJIMdkB+HPdA==",
-      "path": "azure.resourcemanager.cosmosdb/1.2.1",
-      "hashPath": "azure.resourcemanager.cosmosdb.1.2.1.nupkg.sha512"
+      "sha512": "sha512-lcDjG635DPE4fU5tqSueVMmzrx0QrIfPuY0+y6evHN5GanQ0GB+/4nuMHMmoNPwEow6OUPkJu4cZQxfHJQXPdA==",
+      "path": "azure.core/1.19.0",
+      "hashPath": "azure.core.1.19.0.nupkg.sha512"
     },
     "Microsoft.Azure.Cosmos/3.32.0": {
       "type": "package",
@@ -1117,12 +1079,12 @@
       "path": "microsoft.azure.cosmos/3.32.0",
       "hashPath": "microsoft.azure.cosmos.3.32.0.nupkg.sha512"
     },
-    "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
-      "path": "microsoft.bcl.asyncinterfaces/1.1.1",
-      "hashPath": "microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512"
+      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
+      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512"
     },
     "Microsoft.Bcl.HashCode/1.1.0": {
       "type": "package",
@@ -1789,12 +1751,12 @@
       "path": "system.text.encodings.web/4.7.2",
       "hashPath": "system.text.encodings.web.4.7.2.nupkg.sha512"
     },
-    "System.Text.Json/4.7.2": {
+    "System.Text.Json/4.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
-      "path": "system.text.json/4.7.2",
-      "hashPath": "system.text.json.4.7.2.nupkg.sha512"
+      "sha512": "sha512-4F8Xe+JIkVoDJ8hDAZ7HqLkjctN/6WItJIzQaifBwClC7wmoLSda/Sv2i6i1kycqDb3hWF4JCVbpAweyOKHEUA==",
+      "path": "system.text.json/4.6.0",
+      "hashPath": "system.text.json.4.6.0.nupkg.sha512"
     },
     "System.Text.RegularExpressions/4.3.0": {
       "type": "package",
