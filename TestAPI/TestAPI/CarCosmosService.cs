@@ -28,18 +28,18 @@ namespace TestAPI
 
         public async Task<Car> AddAsync(Car newCar)
         {
-            var item = await _container.CreateItemAsync<Car>(newCar, new PartitionKey(newCar.Make));
+            var item = await _container.CreateItemAsync<Car>(newCar, new PartitionKey(newCar.Id));
             return item;
         }
 
         public async Task<Car> Update(Car carToUpdate)
         {
-            var item = await _container.UpsertItemAsync<Car>(carToUpdate, new PartitionKey(carToUpdate.Make));
+            var item = await _container.UpsertItemAsync<Car>(carToUpdate, new PartitionKey(carToUpdate.Id));
             return item;
         }
-        public async Task Delete(string id, string make)
+        public async Task Delete(string id)
         {
-            await _container.DeleteItemAsync<Car>(id, new PartitionKey(make));
+            await _container.DeleteItemAsync<Car>(id, new PartitionKey(id));
         }
     }
 }

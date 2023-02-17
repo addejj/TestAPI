@@ -34,9 +34,9 @@ namespace TestAPI
             return Ok(result);
         }
         [HttpDelete]
-        public async Task<IActionResult> Delete(string id, string make)
+        public async Task<IActionResult> Delete(string id)
         {
-            await _carCosmosService.Delete(id, make);
+            await _carCosmosService.Delete(id);
             return Ok();
         }
     }
