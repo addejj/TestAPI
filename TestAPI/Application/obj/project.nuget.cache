@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Wd4iqG+09mxLLqxW7XOwcge1CHqPu+I+73IeBohsaqXA8TmCepjteth8GA+kyP+FDmNseEYvXNVhsTb+toDPyA==",
+  "dgSpecHash": "1B6XF3kTQStYL84H5x//28sfLAqwJw2PWJ6ykszMT1P2sdB9zW/QoKU7DdccTIW7JQfPy/PCAVGYsNR/4ZQzpg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kf4815\\source\\repos\\TestAPI\\TestAPI\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kf4815\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
